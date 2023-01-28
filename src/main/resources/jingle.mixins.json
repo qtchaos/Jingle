@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.chaos.jingle.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientWorldMixin",
+    "MultiplayerScreenMixin",
+    "TitleScreenMixin",
+    "WorldListWidgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

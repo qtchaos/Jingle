@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "jingle",
+  "version": "${version}",
+  "name": "Jingle",
+  "description": "A fabric mod to alert you when you load into a world or the title screen.",
+  "authors": [
+    "chaos"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/jingle",
+    "sources": "https://github.com/qtchaos/jingle",
+    "issues": "https://github.com/qtchaos/jingle/issues"
+  },
+  "license": "BSD-3-Clause",
+  "icon": "assets/jingle/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.chaos.jingle.client.JingleClient"
+    ]
+  },
+  "mixins": [
+    "jingle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/AyaZ5EkpMd"
+      }
+    }
+  }
+}
