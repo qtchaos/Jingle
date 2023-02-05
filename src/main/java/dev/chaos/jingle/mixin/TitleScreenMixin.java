@@ -6,7 +6,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static dev.chaos.jingle.client.JingleClient.*;
+import static dev.chaos.jingle.client.JingleClient.FIRST_INIT;
+import static dev.chaos.jingle.client.JingleClient.alert;
 
 @Mixin(TitleScreen.class)
 public class TitleScreenMixin {
