@@ -2,7 +2,7 @@
 <a href="https://discord.gg/AyaZ5EkpMd">
 <img alt="discord-singular" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_vector.svg">
 </a>
-<a href="https://modrinth.com/mod/jingles">
+<a href="https://modrinth.com/mod/jingle">
 <img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg">
 </a>
 <br>
